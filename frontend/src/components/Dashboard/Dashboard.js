@@ -11,7 +11,7 @@ function Dashboard() {
       try {
         const token = localStorage.getItem("token");
         const response = await axios.get(
-          "http://localhost:3000/api/protected",
+          "http://167.172.130.236:3000/api/protected",
           {
             headers: { Authorization: `Bearer ${token}` },
           }

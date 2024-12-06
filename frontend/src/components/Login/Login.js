@@ -17,7 +17,7 @@ function LoginComponent() {
     try {
       const endpoint = isLogin ? "/login" : "/register";
       const response = await axios.post(
-        `http://localhost:3000/api/auth${endpoint}`,
+        `http://167.172.130.236:3000/api/auth${endpoint}`,
         {
           username,
           password,

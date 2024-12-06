@@ -13,7 +13,7 @@ const Summary = () => {
     const getData = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:3000/api/summary-chart-data"
+          "http://167.172.130.236:3000/api/summary-chart-data"
         );
         const data = response.data;
 
